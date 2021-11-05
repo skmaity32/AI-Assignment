@@ -1,0 +1,23 @@
+siblings(peter, paul).
+siblings(bob, liz).
+siblings(ann, pat).
+
+siblings(pam, tom).
+siblings(ann, liz).
+siblings(peter, marry).
+
+full_siblings(peter, paul).
+full_siblings(bob, liz).
+full_siblings(ann, pat).
+
+full_siblings(pam, tom).
+full_siblings(ann, liz).
+full_siblings(peter, marry).
+
+uncle(liz, pat).
+uncle(ann, jim).
+uncle(bob, jim).
+
+aunt(liz, ann).
+aunt(ann, jim).
+aunt(pam, pat).
